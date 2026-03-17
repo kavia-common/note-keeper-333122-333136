@@ -1,10 +1,11 @@
 @import "tailwindcss";
 
 :root {
-  --color-primary: #000000;
-  --color-secondary: #FFFFFF;
-  --color-accent: #3B82F6;
-  --color-background: #FFFFFF;
+  --color-primary: #111827;
+  --color-secondary: #ffffff;
+  --color-accent: #3b82f6;
+  --color-accent-2: #06b6d4;
+  --color-background: #f9fafb;
 }
 
 * {
@@ -23,4 +24,12 @@ body {
 
 body {
   font-family: system-ui, -apple-system, sans-serif;
+}
+
+::selection {
+  background: rgba(59, 130, 246, 0.18);
+}
+
+:focus-visible {
+  outline: none;
 }
